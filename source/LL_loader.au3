@@ -6,7 +6,7 @@
 #include <GuiComboBox.au3>
 
 $n = (@ScriptDir & "\download.exe")
-TrayTip("test", "script started", 10, 2)
+TrayTip("LL-Loader", "Loader started", 10, 2)
 
 Sleep("3000")
 
@@ -32,15 +32,15 @@ Send("cscript unzip.vbs LiteLoader.zip")
 Send("{ENTER}")
 Sleep("1000")
 Send("exit")
+Sleep("1000")
+Send("{ENTER}")
 
 ProcessWaitClose("cmd.exe")
 Sleep("1000")
 Run("SymDB2.exe")
-
+ProcessWait("SymDB2.exe")
+Sleep("1000")
 ProcessWaitClose("SymDB2.exe")
 Run("bedrock_server.exe")
-Send("hello world!")
-Sleep("1000")
-WinClose("bedrock_server.exe")
 
-
+TrayTip("LL-Loader", "Loader completed", 10, 1)

@@ -21,14 +21,10 @@ and you can see this window:
 
 extracting may take a long time (depending on your PC)
 
-then u need press ENTER to go next
-
-![image](https://user-images.githubusercontent.com/59438110/136672846-a7839692-6b6c-41bd-92c1-b058403bc450.png)
-
 after SymDB2.exe will start(you need press enter when SymDB2.exe will finish)
 
 ![image](https://user-images.githubusercontent.com/59438110/136672886-fb1d48cf-b14a-4f63-bda8-fa4e10dfc39f.png)
 
-and then bedrock_server.exe will start(its all you can use your server)
+and then bedrock_server.exe will start(its all)
 
 ![image](https://user-images.githubusercontent.com/59438110/136672915-a79b8e2b-38ea-4d9b-a7a9-e8339bd09d50.png)

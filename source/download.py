@@ -6,7 +6,7 @@ if (a == "1"):
     urllib.request.urlretrieve(zip, 'bedrock_server.zip')
 else:
     print('Beginning downloading files...')
-    zip1 = 'http://mica1529.ru/LL_loader/LiteLoader.zip' 
+    zip1 = 'https://github.com/LiteLDev/LiteLoaderBDS/releases/download/1.2.4/LiteLoader.zip' 
     urllib.request.urlretrieve(zip1, 'LiteLoader.zip')
 print("Success!")
 
